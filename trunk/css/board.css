@@ -1,0 +1,108 @@
+.container {
+	position: absolute;
+	top: 100px;
+	width: 98%;
+}
+
+.teamContainer {
+	position: absolute;
+	height: 40px;
+	left: 20px;
+	right: 20px;
+	top: 0px;
+	z-index: 0;
+}
+
+.item{
+	margin: 3px;
+	padding: 3px;
+	display: inline;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+	height: 20px;
+}
+
+.tries,.time {
+	display: inline;
+	margin: -1px;
+	padding: 0px;
+	font-size: 0.8em;
+}
+.rank,.penalty{
+	width: 40px;
+}
+
+.acNum {
+	width: 20px;
+}
+
+.teamname {
+	width: 200px;
+}
+
+.statusContainer {
+	width: 56px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 10px;
+	right: 10px;
+	text-align: center;
+	background: white;
+	z-index: 200;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 10px;
+	right: 10px;
+	text-align: center;
+	background: white;
+	z-index: 200;
+}
+
+.blank {
+	position: absolute;
+	height: 200px;
+}
+
+.focus {
+	padding-left: 0px;
+	left: 0px;
+	right: 0px;
+	height: 70px;
+}
+
+.focus .item{
+	#height: 50px;
+}
+
+.focus2 {
+	height: 50px;
+	margin-left: 4px;
+	margin-right: 5px;
+	font-size: 1.3em;
+}
+
+.focus .tries, .focus .time {
+	display: block;
+	font-size: 1.1em;
+}
+
+.focus .tries {
+	margin-top: -5px;
+	margin-bottom: -5px;
+	margin-left: 0px;	
+}
+
+#currentBoard, #finalBoard {
+	display: none;
+}
+
+#newteam, #newstatus {
+	display: none;
+}
